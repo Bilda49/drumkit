@@ -71,15 +71,15 @@ function after_U() {
   bt_keyCodeU.style.boxShadow = "16px 16px 16px rgb(96, 93, 93)";
 }
 // key_S_____________________
-function before_R() {
-  bt_keyCodeR.style.width = "310px";
-  bt_keyCodeR.style.height = "160px";
-  bt_keyCodeR.style.boxShadow = "8px 8px 8px rgb(96, 93, 93)";
+function before_S() {
+  bt_keyCodeS.style.width = "310px";
+  bt_keyCodeS.style.height = "160px";
+  bt_keyCodeS.style.boxShadow = "8px 8px 8px rgb(96, 93, 93)";
 }
-function after_R() {
-  bt_keyCodeR.style.width = "300px";
-  bt_keyCodeR.style.height = "150px";
-  bt_keyCodeR.style.boxShadow = "16px 16px 16px rgb(96, 93, 93)";
+function after_S() {
+  bt_keyCodeS.style.width = "300px";
+  bt_keyCodeS.style.height = "150px";
+  bt_keyCodeS.style.boxShadow = "16px 16px 16px rgb(96, 93, 93)";
 }
 // key_R_____________________
 function before_R() {
@@ -168,7 +168,7 @@ bt_keyCodeY.addEventListener("click", () => {
 bt_keyCodeC.addEventListener("click", () => {
   keyCodeC.play();
   keyCodeC.currentTime = 0;
-  before_CX();
+  before_C();
   setTimeout(after_C, 100);
 });
 
